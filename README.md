@@ -1,6 +1,18 @@
-# meatthecrew
-project 0 for CS413
+# Project 1
 
-puzzle game with rotating sprites
+## Genesis
 
-a game by 0xbeef
+* Joe Domabyl V (jwd98)
+* Tim Giroux (tlg292)
+* Andrew Liddell (ajl496)
+
+## Instructions
+* n/a
+
+## Known Bugs or Issues
+* n/a
+
+## Credits
+* Joe Domabyl:
+* Tim Grioux: art, sounds
+* Andrew Liddell:
