@@ -1,5 +1,5 @@
 # meatthecrew
-project 0 for CS413
+project 1 for CS413
 
 puzzle game with rotating sprites
 
