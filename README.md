@@ -1,6 +1,6 @@
 # Project 1
 
-## Genesis
+## Meat the Crew
 
 * Joe Domabyl V (jwd98)
 * Tim Giroux (tlg292)

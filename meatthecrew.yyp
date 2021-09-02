@@ -1,10 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"obj_tim_br","path":"objects/obj_tim_br/obj_tim_br.yy",},"order":5,},
+    {"id":{"name":"spr_tim_br","path":"sprites/spr_tim_br/spr_tim_br.yy",},"order":5,},
     {"id":{"name":"obj_tim","path":"objects/obj_tim/obj_tim.yy",},"order":0,},
     {"id":{"name":"obj_bg","path":"objects/obj_bg/obj_bg.yy",},"order":1,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":1,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
+    {"id":{"name":"obj_tim_tr","path":"objects/obj_tim_tr/obj_tim_tr.yy",},"order":3,},
+    {"id":{"name":"spr_tim_bl","path":"sprites/spr_tim_bl/spr_tim_bl.yy",},"order":4,},
     {"id":{"name":"spr_tim","path":"sprites/spr_tim/spr_tim.yy",},"order":0,},
+    {"id":{"name":"spr_tim_tr","path":"sprites/spr_tim_tr/spr_tim_tr.yy",},"order":3,},
+    {"id":{"name":"spr_tim_tl","path":"sprites/spr_tim_tl/spr_tim_tl.yy",},"order":2,},
+    {"id":{"name":"obj_tim_tl","path":"objects/obj_tim_tl/obj_tim_tl.yy",},"order":2,},
+    {"id":{"name":"obj_tim_bl","path":"objects/obj_tim_bl/obj_tim_bl.yy",},"order":4,},
     {"id":{"name":"rm_tim","path":"rooms/rm_tim/rm_tim.yy",},"order":0,},
   ],
   "Options": [
