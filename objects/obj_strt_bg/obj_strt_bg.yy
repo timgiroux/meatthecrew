@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tim_tr",
-    "path": "sprites/spr_tim_tr/spr_tim_tr.yy",
+    "name": "spr_strt_bg",
+    "path": "sprites/spr_strt_bg/spr_strt_bg.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tim_tr",
+  "name": "obj_strt_bg",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -14,5 +14,5 @@
 
 ## Credits
 * Joe Domabyl:
-* Tim Grioux: art, sounds
+* Tim Giroux: art, sounds
 * Andrew Liddell:
