@@ -13,6 +13,6 @@
 * n/a
 
 ## Credits
-* Joe Domabyl:
+* Joe Domabyl: creation code for start room
 * Tim Giroux: art, sounds
 * Andrew Liddell:
