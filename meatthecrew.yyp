@@ -1,11 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"obj_strt_btn","path":"objects/obj_strt_btn/obj_strt_btn.yy",},"order":7,},
+    {"id":{"name":"obj_quit_btn","path":"objects/obj_quit_btn/obj_quit_btn.yy",},"order":8,},
     {"id":{"name":"obj_tim_br","path":"objects/obj_tim_br/obj_tim_br.yy",},"order":5,},
     {"id":{"name":"spr_tim_br","path":"sprites/spr_tim_br/spr_tim_br.yy",},"order":5,},
+    {"id":{"name":"spr_quit_btn","path":"sprites/spr_quit_btn/spr_quit_btn.yy",},"order":8,},
+    {"id":{"name":"spr_strt_bg","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"order":6,},
     {"id":{"name":"obj_tim","path":"objects/obj_tim/obj_tim.yy",},"order":0,},
+    {"id":{"name":"obj_strt_bg","path":"objects/obj_strt_bg/obj_strt_bg.yy",},"order":6,},
     {"id":{"name":"obj_bg","path":"objects/obj_bg/obj_bg.yy",},"order":1,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":1,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
+    {"id":{"name":"spr_strt_btn","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"order":7,},
+    {"id":{"name":"rm_strt","path":"rooms/rm_strt/rm_strt.yy",},"order":1,},
     {"id":{"name":"obj_tim_tr","path":"objects/obj_tim_tr/obj_tim_tr.yy",},"order":3,},
     {"id":{"name":"spr_tim_bl","path":"sprites/spr_tim_bl/spr_tim_bl.yy",},"order":4,},
     {"id":{"name":"spr_tim","path":"sprites/spr_tim/spr_tim.yy",},"order":0,},
@@ -18,6 +25,7 @@
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -27,6 +35,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_strt","path":"rooms/rm_strt/rm_strt.yy",},},
     {"roomId":{"name":"rm_tim","path":"rooms/rm_tim/rm_tim.yy",},},
   ],
   "Folders": [

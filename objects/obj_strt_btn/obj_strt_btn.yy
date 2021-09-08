@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tim_tr",
-    "path": "sprites/spr_tim_tr/spr_tim_tr.yy",
+    "name": "spr_strt_btn",
+    "path": "sprites/spr_strt_btn/spr_strt_btn.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tim_tr",
+  "name": "obj_strt_btn",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,6 +1,18 @@
-# meatthecrew
-project 1 for CS413
+# Project 1
 
-puzzle game with rotating sprites
+## Meat the Crew
 
-a game by 0xbeef
+* Joe Domabyl V (jwd98)
+* Tim Giroux (tlg292)
+* Andrew Liddell (ajl496)
+
+## Instructions
+* n/a
+
+## Known Bugs or Issues
+* n/a
+
+## Credits
+* Joe Domabyl: creation code for start room
+* Tim Giroux: art, sounds
+* Andrew Liddell:

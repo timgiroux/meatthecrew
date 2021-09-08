@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tim_tr",
-    "path": "sprites/spr_tim_tr/spr_tim_tr.yy",
+    "name": "spr_quit_btn",
+    "path": "sprites/spr_quit_btn/spr_quit_btn.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tim_tr",
+  "name": "obj_quit_btn",
   "tags": [],
   "resourceType": "GMObject",
 }
