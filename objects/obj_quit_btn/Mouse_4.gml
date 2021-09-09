@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-game_end();
+id.image_xscale = .9;
+id.image_yscale = .9;
