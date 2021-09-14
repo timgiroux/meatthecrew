@@ -33,3 +33,6 @@ global.aj_chickenwing[8] = instance_create_layer(96, 160, lyr_aj_chickenwing, ob
 global.aj_chickenwing[9] = instance_create_layer(160, 160, lyr_aj_chickenwing, obj_aj_br);
 
 initial_setup(global.aj_chickenwing);
+
+// play room music
+audio_play_sound(snd_music, 0, false);

@@ -19,3 +19,5 @@ global.turkey_tim[4] = instance_create_layer(128, 128, lyr_turkey_tim, obj_tim_b
 
 initial_setup(global.turkey_tim);
 
+// play room music
+audio_play_sound(snd_music, 0, false);

@@ -18,3 +18,6 @@ global.tbone_joe[3] = instance_create_layer(64, 128, lyr_tbone_joe, obj_joe_bl);
 global.tbone_joe[4] = instance_create_layer(128, 128, lyr_tbone_joe, obj_joe_br);
 
 initial_setup(global.tbone_joe);
+
+// play room music
+audio_play_sound(snd_music, 0, false);

@@ -20,6 +20,11 @@ function initial_setup(image_array){
 
 // Replace the chopped up images of sprites with the full image counterpart
 function replace_sprite(image_array){
+	
+	// play congrats sound, priority 0, dont loop
+	audio_stop_sound(snd_music);
+	audio_play_sound(snd_grats, 0, false);
+	
 	// pull layer id from existing image array
 	var lyr_instance_id = image_array[1].layer;
 	
@@ -36,7 +41,9 @@ function replace_sprite(image_array){
 function check_win(image_array){
   for(var i = 1; i < array_length_1d(image_array); i++){
 	  var angle = image_array[i].object_index.image_angle;
-	  if (angle != 0) return;
+	  if (angle != 0) {
+		return;
+	  }
   }
   
   // replace the chopped up sprites with their full image counterpart
