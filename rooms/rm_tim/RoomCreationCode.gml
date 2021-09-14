@@ -1,3 +1,5 @@
+audio_stop_all();
+
 var lyr_turkey_tim = layer_get_id("Turkey_Tim");
 
 global.turkey_tim = array_create(5);
@@ -20,4 +22,4 @@ global.turkey_tim[4] = instance_create_layer(128, 128, lyr_turkey_tim, obj_tim_b
 initial_setup(global.turkey_tim);
 
 // play room music
-audio_play_sound(snd_music, 0, false);
+audio_play_sound(snd_turkey_theme, 0, true);

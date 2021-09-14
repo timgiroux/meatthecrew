@@ -2,7 +2,8 @@
   "resources": [
     {"id":{"name":"obj_strt_btn","path":"objects/obj_strt_btn/obj_strt_btn.yy",},"order":7,},
     {"id":{"name":"obj_joe_tr","path":"objects/obj_joe_tr/obj_joe_tr.yy",},"order":13,},
-    {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},"order":1,},
+    {"id":{"name":"snd_turkey_theme","path":"sounds/snd_turkey_theme/snd_turkey_theme.yy",},"order":3,},
+    {"id":{"name":"snd_tbone_theme","path":"sounds/snd_tbone_theme/snd_tbone_theme.yy",},"order":1,},
     {"id":{"name":"obj_joe_tl","path":"objects/obj_joe_tl/obj_joe_tl.yy",},"order":12,},
     {"id":{"name":"obj_quit_btn","path":"objects/obj_quit_btn/obj_quit_btn.yy",},"order":8,},
     {"id":{"name":"spr_joe_br","path":"sprites/spr_joe_br/spr_joe_br.yy",},"order":13,},
@@ -16,7 +17,9 @@
     {"id":{"name":"spr_aj_bm","path":"sprites/spr_aj_bm/spr_aj_bm.yy",},"order":25,},
     {"id":{"name":"spr_tim_bg","path":"sprites/spr_tim_bg/spr_tim_bg.yy",},"order":9,},
     {"id":{"name":"spr_aj_tr","path":"sprites/spr_aj_tr/spr_aj_tr.yy",},"order":20,},
+    {"id":{"name":"snd_chicken_gratitude","path":"sounds/snd_chicken_gratitude/snd_chicken_gratitude.yy",},"order":5,},
     {"id":{"name":"spr_strt_bg","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"order":6,},
+    {"id":{"name":"snd_chicken_release","path":"sounds/snd_chicken_release/snd_chicken_release.yy",},"order":4,},
     {"id":{"name":"obj_aj_tl","path":"objects/obj_aj_tl/obj_aj_tl.yy",},"order":17,},
     {"id":{"name":"obj_aj_tr","path":"objects/obj_aj_tr/obj_aj_tr.yy",},"order":19,},
     {"id":{"name":"obj_tim","path":"objects/obj_tim/obj_tim.yy",},"order":15,},
@@ -102,7 +105,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.574",
+    "IDEVersion": "2.3.4.577",
   },
   "resourceVersion": "1.4",
   "name": "meatthecrew",
