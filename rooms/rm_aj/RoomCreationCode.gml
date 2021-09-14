@@ -1,3 +1,5 @@
+audio_stop_all();
+
 var lyr_aj_chickenwing = layer_get_id("AJ_Chickenwing");
 
 global.aj_chickenwing = array_create(10);
@@ -35,4 +37,4 @@ global.aj_chickenwing[9] = instance_create_layer(160, 160, lyr_aj_chickenwing, o
 initial_setup(global.aj_chickenwing);
 
 // play room music
-audio_play_sound(snd_music, 0, false);
+audio_play_sound(snd_chicken_release, 0, true);

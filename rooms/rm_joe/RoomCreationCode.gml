@@ -1,3 +1,5 @@
+audio_stop_all();
+
 var lyr_tbone_joe = layer_get_id("TBone_Joe");
 
 global.tbone_joe = array_create(5);
@@ -20,4 +22,4 @@ global.tbone_joe[4] = instance_create_layer(128, 128, lyr_tbone_joe, obj_joe_br)
 initial_setup(global.tbone_joe);
 
 // play room music
-audio_play_sound(snd_music, 0, false);
+audio_play_sound(snd_tbone_theme, 0, true);

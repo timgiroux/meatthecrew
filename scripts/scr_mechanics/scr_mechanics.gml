@@ -18,12 +18,16 @@ function initial_setup(image_array){
 	}
 }
 
+function sound_settings(image_array){
+  audio_stop_all();
+  if (image_array == global.turkey_tim || image_array == global.tbone_joe) audio_play_sound(snd_grats, 0, false);
+  else audio_play_sound(snd_chicken_gratitude, 0, false);
+}
+
 // Replace the chopped up images of sprites with the full image counterpart
 function replace_sprite(image_array){
 	
-	// play congrats sound, priority 0, dont loop
-	audio_stop_sound(snd_music);
-	audio_play_sound(snd_grats, 0, false);
+	sound_settings(image_array)
 	
 	// pull layer id from existing image array
 	var lyr_instance_id = image_array[1].layer;
