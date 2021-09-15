@@ -71,6 +71,7 @@
     {"id":{"name":"TGMS_1_EasyTweens","path":"scripts/TGMS_1_EasyTweens/TGMS_1_EasyTweens.yy",},"order":4,},
     {"id":{"name":"spr_aj_tl","path":"sprites/spr_aj_tl/spr_aj_tl.yy",},"order":18,},
     {"id":{"name":"spr_tim_bl","path":"sprites/spr_tim_bl/spr_tim_bl.yy",},"order":4,},
+    {"id":{"name":"spr_continue","path":"sprites/spr_continue/spr_continue.yy",},"order":35,},
     {"id":{"name":"spr_tim_tr","path":"sprites/spr_tim_tr/spr_tim_tr.yy",},"order":3,},
     {"id":{"name":"obj_credit","path":"objects/obj_credit/obj_credit.yy",},"order":27,},
     {"id":{"name":"o_SharedTweener","path":"objects/o_SharedTweener/o_SharedTweener.yy",},"order":0,},
@@ -89,6 +90,7 @@
     {"id":{"name":"spr_aj_br","path":"sprites/spr_aj_br/spr_aj_br.yy",},"order":26,},
     {"id":{"name":"obj_tim_bg","path":"objects/obj_tim_bg/obj_tim_bg.yy",},"order":28,},
     {"id":{"name":"obj_joe_br","path":"objects/obj_joe_br/obj_joe_br.yy",},"order":11,},
+    {"id":{"name":"obj_continue","path":"objects/obj_continue/obj_continue.yy",},"order":32,},
     {"id":{"name":"rm_tim","path":"rooms/rm_tim/rm_tim.yy",},"order":0,},
   ],
   "Options": [
