@@ -87,4 +87,6 @@ function check_win(image_array) {
   
 	// Replace the chopped up sprites with their full image counterpart
 	replace_sprite(image_array);
+	
+	
 }

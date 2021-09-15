@@ -7,12 +7,14 @@
 * Andrew Liddell (ajl496)
 
 ## Instructions
-* n/a
+* Click (LMB) to spin the puzzle pieces into the full image!
+* After puzzle completion, click again to go to the next level
+* There are three levels
 
 ## Known Bugs or Issues
 * n/a
 
 ## Credits
-* Joe Domabyl: creation code for start room
-* Tim Giroux: art, sounds
-* Andrew Liddell:
+* Joe Domabyl: script, creation code, sequences, start room sprites, win room sprites, dove/bat sprites, tweening
+* Tim Giroux: art/sprites for Turkey Tim, TBone Joe, AJ Chicken Wing, image manipulation, backgrounds
+* Andrew Liddell: character theme music, voice over

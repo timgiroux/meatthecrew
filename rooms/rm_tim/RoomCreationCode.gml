@@ -2,6 +2,9 @@ audio_stop_all();
 
 var lyr_turkey_tim = layer_get_id("Turkey_Tim");
 
+// Run sequence of doves flying in the background
+layer_sequence_create("Instances", 0, 0, seq_doves);
+
 global.turkey_tim = array_create(5);
 
 // Full Turkey Tim object
