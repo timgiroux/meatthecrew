@@ -2,6 +2,8 @@ audio_stop_all();
 
 var lyr_tbone_joe = layer_get_id("TBone_Joe");
 
+layer_sequence_create("Instances", 0, 0, seq_bats);
+
 global.tbone_joe = array_create(5);
 
 // Full TBone Joe object
