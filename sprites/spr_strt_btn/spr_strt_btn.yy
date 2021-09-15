@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 99,
+  "bbox_right": 127,
   "bbox_top": 0,
-  "bbox_bottom": 49,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
-  "height": 50,
+  "width": 128,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"79ad476d-48a7-42b2-8441-ec13c710964c","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"79ad476d-48a7-42b2-8441-ec13c710964c","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"LayerId":{"name":"2db38605-1282-4f9b-ba9d-e81b1f21b590","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"79ad476d-48a7-42b2-8441-ec13c710964c","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"LayerId":{"name":"f85cff05-1832-4768-b675-bc76f36eb916","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"79ad476d-48a7-42b2-8441-ec13c710964c","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"LayerId":{"name":"2db38605-1282-4f9b-ba9d-e81b1f21b590","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_strt_btn","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},"resourceVersion":"1.0","name":"79ad476d-48a7-42b2-8441-ec13c710964c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -55,8 +55,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 50,
-    "yorigin": 25,
+    "xorigin": 64,
+    "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_strt_btn","path":"sprites/spr_strt_btn/spr_strt_btn.yy",},
@@ -76,6 +76,8 @@
   },
   "resourceVersion": "1.0",
   "name": "spr_strt_btn",
-  "tags": [],
+  "tags": [
+    "start room",
+  ],
   "resourceType": "GMSprite",
 }

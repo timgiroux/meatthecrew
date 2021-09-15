@@ -1,11 +1,18 @@
-// Creation code for rm_puzzle
+// Creation code for start screen
 
-var lyr_instances = layer_get_id("Instances");
+with (inst_title_1) {
+  TweenEasyMove(-384, 0, 0, 0, 0, 45, EaseOutBounce);
+}
 
-// Insert start button
-instance_create_layer(224, 64, lyr_instances, obj_strt_btn);
+with (inst_strt_btn) {
+  TweenEasyMove(464, 64, 304, 64, 45, 45, EaseOutBounce);
+}
 
-// Insert quit button
-instance_create_layer(224, 160, lyr_instances, obj_quit_btn);
+with (inst_strt_quit_btn) {
+  TweenEasyMove(464, 144, 304, 144, 45, 45, EaseOutBounce);
+}
 
+with (inst_credit) {
+  TweenEasyMove(288, 432, 288, 352, 90, 45, EaseOutBounce);
+}
 

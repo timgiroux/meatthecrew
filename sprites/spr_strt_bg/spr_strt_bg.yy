@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 319,
+  "bbox_right": 383,
   "bbox_top": 0,
-  "bbox_bottom": 319,
+  "bbox_bottom": 383,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 320,
-  "height": 320,
+  "width": 384,
+  "height": 384,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -25,8 +25,8 @@
   "gridY": 20,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"2f918cbb-e132-48c9-8f18-6c3701cc5b98","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f918cbb-e132-48c9-8f18-6c3701cc5b98","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"LayerId":{"name":"bbf86264-c933-4bfe-bdbc-a44c08fbc4fa","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"2f918cbb-e132-48c9-8f18-6c3701cc5b98","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"LayerId":{"name":"90c1f044-4d14-4cdd-972d-ac2d710e265d","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2f918cbb-e132-48c9-8f18-6c3701cc5b98","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"LayerId":{"name":"50379c30-8199-47fa-b184-0dbfcb5f864e","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_strt_bg","path":"sprites/spr_strt_bg/spr_strt_bg.yy",},"resourceVersion":"1.0","name":"2f918cbb-e132-48c9-8f18-6c3701cc5b98","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,7 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"bbf86264-c933-4bfe-bdbc-a44c08fbc4fa","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"50379c30-8199-47fa-b184-0dbfcb5f864e","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"90c1f044-4d14-4cdd-972d-ac2d710e265d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
@@ -76,6 +76,8 @@
   },
   "resourceVersion": "1.0",
   "name": "spr_strt_bg",
-  "tags": [],
+  "tags": [
+    "start room",
+  ],
   "resourceType": "GMSprite",
 }
