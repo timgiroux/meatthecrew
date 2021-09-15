@@ -81,12 +81,13 @@ function check_win(image_array) {
 			return;
 		}
 	}
+	
+	instance_create_layer(96, 96, image_array[1].layer, obj_continue);
   
 	// Change playing sounds
 	sound_settings(image_array);  
   
 	// Replace the chopped up sprites with their full image counterpart
 	replace_sprite(image_array);
-	
 	
 }
