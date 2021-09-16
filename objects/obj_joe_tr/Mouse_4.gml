@@ -1,1 +1,1 @@
-orient(id);
+orient_pz_piece(id);

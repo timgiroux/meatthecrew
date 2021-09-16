@@ -1,41 +1,42 @@
-// Helper function to prevent image angle going beyond -360 degrees and to check win conditions
-function check_status(image) {
-	
-	// Update image angle if needed
-	if(image.image_angle == -360) image.image_angle = 0;
-	
-	// Update rotating flag
-	image.rotating = false;
-	
-	// Get the name of the layer that the image came from
-	var layer_name = layer_get_name(image.layer);
-	
-	// Check the win status based on current room
-	if (layer_name == "Turkey_Tim") {
-		check_win(global.turkey_tim);
-	}
-	else if (layer_name == "TBone_Joe") {
-		check_win(global.tbone_joe);	
-	}
-	else {
-		check_win(global.aj_chickenwing);	
-	}
-}
 
 // Tween image by -90 degrees
-function orient(image) {
+function orient_pz_piece(image) {
 	
-	// Check if image is mid-rotation
-	if (image.rotating == false) {
+	// Ignore if image is mid-rotation
+	if (!image.rotating) {
 		
 		// Update rotating flag
 		image.rotating = true;
-		tween = TweenFire(image, EaseInOutQuad, TWEEN_MODE_ONCE, false, 0, 22.5, "image_angle", image.image_angle, image.image_angle - 90);
+		tween = TweenFire(image, EaseInOutQuad, TWEEN_MODE_ONCE, false, 0, 22.5,
+		                  "image_angle", image.image_angle, image.image_angle - 90);
 		
 		// Add callback to tween, preventing further tween attempts until completion
-		TweenAddCallback(tween, TWEEN_EV_FINISH, image, check_status, image);	
+		// (this sets image.rotating back to false)
+		TweenAddCallback(tween, TWEEN_EV_FINISH, image, orient_pz_piece_callback, image);	
 	}
 }
+	// Helper function to update to check win conditions
+	// and update rotating flag
+	function orient_pz_piece_callback(image) {
+	
+		// Update rotating flag
+		image.rotating = false;
+	
+		// Get the name of the layer that the image came from
+		var layer_name = layer_get_name(image.layer);
+	
+		// Check the win status based on current room
+		if (layer_name == "Turkey_Tim") {
+			check_win(global.turkey_tim);
+		}
+		else if (layer_name == "TBone_Joe") {
+			check_win(global.tbone_joe);	
+		}
+		else {
+			check_win(global.aj_chickenwing);	
+		}
+	}
+
 
 // Randomize the initial orientation of the sprites in a given puzzle and initialize rotating Boolean
 // Note: not possible for sprites to start in their correct orientation, no need
@@ -52,9 +53,10 @@ function initial_setup(image_array) {
 // Stop all audio and play "win" audio based on current room
 function sound_settings(image_array) {
   audio_stop_all();
-  if (image_array == global.turkey_tim || image_array == global.tbone_joe) audio_play_sound(snd_grats, 0, false);
-  else 
-  {
+  if (image_array == global.turkey_tim || image_array == global.tbone_joe) {
+	  audio_play_sound(snd_grats, 0, false);
+  }
+  else {
 	  audio_play_sound(snd_chicken_gratitude, 0, false);
   }
 }
@@ -77,20 +79,23 @@ function replace_sprite(image_array) {
 // Helper function to check if all images are at orientation 0 and update sounds/sprites if required
 function check_win(image_array) {
 	
+	// If the angle of any piece is not in original position, puzzle is not won
 	for(var i = 1; i < array_length_1d(image_array); i++){
 		var angle = image_array[i].object_index.image_angle;
-		// If the angle is not zero for any given image, puzzle is not won
-		if (angle != 0) {
+		if (angle % 360 != 0) {
 			return;
 		}
 	}
 	
+	// Escaped the for-loop, puzzle is complete
+	// Spawn continue button
 	instance_create_layer(96, 20, image_array[1].layer, obj_continue);
   
 	// Change playing sounds
-	sound_settings(image_array);  
+	sound_settings(image_array);
   
 	// Replace the chopped up sprites with their full image counterpart
 	replace_sprite(image_array);
 	
+	return;
 }
