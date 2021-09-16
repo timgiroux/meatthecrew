@@ -17,4 +17,4 @@
 ## Credits
 * Joe Domabyl: script, creation code, sequences, start room sprites, win room sprites, dove/bat sprites, tweening
 * Tim Giroux: art/sprites for Turkey Tim, TBone Joe, AJ Chicken Wing, image manipulation, backgrounds
-* Andrew Liddell: character theme music, voice over
+* Andrew Liddell: theme music for the three puzzles, victory music, Tweening of continue button, spriting on AJ hands with alarm handling
