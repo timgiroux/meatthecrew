@@ -53,7 +53,10 @@ function initial_setup(image_array) {
 function sound_settings(image_array) {
   audio_stop_all();
   if (image_array == global.turkey_tim || image_array == global.tbone_joe) audio_play_sound(snd_grats, 0, false);
-  else audio_play_sound(snd_chicken_gratitude, 0, false);
+  else 
+  {
+	  audio_play_sound(snd_chicken_gratitude, 0, false);
+  }
 }
 
 // Replace the chopped up images of sprites with the full image counterpart
@@ -82,7 +85,7 @@ function check_win(image_array) {
 		}
 	}
 	
-	instance_create_layer(96, 96, image_array[1].layer, obj_continue);
+	instance_create_layer(96, 20, image_array[1].layer, obj_continue);
   
 	// Change playing sounds
 	sound_settings(image_array);  
